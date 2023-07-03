@@ -1,0 +1,15 @@
+.popNotification{
+    position: relative;
+}
+.popNotification::after{
+    content: "12+";
+    position: absolute;
+    width: 35px;
+    height: auto;
+    padding: 2px;
+    font-size: .8rem;
+    border-radius: 10px;
+    background-color: red;
+    top: 0;
+
+}
